@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font: sans-serif;
+}
+
+.main-img {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+  witdh: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #F3DFBA;
+  border-bottom: solid;
+  border-color: #A0A0A0;
+  border-width: 1.5px;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.nav-logo {
+	float: left;
+	padding: 10px 0;
+	padding-left: 50px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	padding-right: 80px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+
+	position: relative;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #6E6D6D;
+}
+
+nav a:hover {
+	color: #444;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+
+.AGAPEfullgroup-img {
+	width: 600px;
+	height: 450px;
+}
+
+.Mario-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Luigi-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Toad-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Yoshi-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Wario-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Waluigi-img {
+	width: 600px;
+	height: 400px;
+}
+
+.PrincessPeach-img {
+	width: 600px;
+	height: 400px;
+}
+
+.required {
+	color: red;
+	font-size: 10px
+}
