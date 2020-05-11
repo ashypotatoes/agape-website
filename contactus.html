@@ -23,15 +23,28 @@
 
 	<form action="#">
 		<legend> <b>Contact Us</b> </legend>
-		<label>Name</label> <span class="required">*</span><br>
-			<input type="text" name="first-name"> <input type="text" name="last-name"/> <br>
+
+<!-- POSSIBLY CHANGE THE CLASSES TO ID'S? ID'S ARE USED TO IDENTIY A SINGLE ELEMENT, WHILE CLASSES ARE FOR MULTIPLE-->
+		<label>First Name</label> <span class="required">*</span><br>
+			<input type="text" name="first-name" class="first-name-input"><br>
+
+		<label>Last Name</label> <span class="required">*</span><br>
+			<input type="text" name="last-name" class="last-name-input"><br>
+
 		<label>Email</label> <span class="required">*</span> <br>
-			<input type="text" name="email"> <br>
+			<input type="text" name="email" class="email-input"> <br>
+
+		<label>Phone Number</label> <span class="required">*</span> <br>
+			<input type="text" name="phone" class="phone-input"> <br>
+<!-- ENTER PREFERRED METHOD OF CONTACT DROPDOWN SELECTION -->
+
 		<label>Subject</label> <span class="required">*</span> <br>
-			<input type="text" name="subject"> <br>
+			<input type="text" name="subject" class="subject-input"> <br>
+
 		<label>Message</label> <span class="required">*</span> <br>
-			<textarea name="message" cols="20" rows="4"></textarea> <br>
-		<input type="submit" name="submit" value="Submit">
+			<textarea name="message" cols="20" rows="4" id="message-input"></textarea> <br>
+
+		<input type="submit" name="submit" value="Submit" id="submit-input">
 	</form>
 </body>
 </html>

@@ -81,48 +81,96 @@ nav a:hover::before {
 	width: 100%;
 }
 
-
 .AGAPEfullgroup-img {
 	width: 600px;
 	height: 450px;
 }
 
-.Mario-img {
+/* SECTION FOR LEADERS/OFFICERS PAGE */
+.President-img {
 	width: 600px;
 	height: 400px;
 }
 
-.Luigi-img {
+.VP-img {
 	width: 600px;
 	height: 400px;
 }
 
-.Toad-img {
+.Treasurer-img {
 	width: 600px;
 	height: 400px;
 }
 
-.Yoshi-img {
+.Media1-img {
 	width: 600px;
 	height: 400px;
 }
 
-.Wario-img {
+.Media2-img {
 	width: 600px;
 	height: 400px;
 }
 
-.Waluigi-img {
+.Historian-img {
 	width: 600px;
 	height: 400px;
 }
 
-.PrincessPeach-img {
+.Events1-img {
 	width: 600px;
 	height: 400px;
+}
+
+.Events2-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Events3-img {
+	width: 600px;
+	height: 400px;
+}
+
+.Praise-img {
+	width: 600px;
+	height: 400px;
+}
+
+
+/*		SECTION FOR THE "CONTACT US" PAGE 			*/
+
+legend {
+	margin-top: 35px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	font-size: 35px;
 }
 
 .required {
 	color: red;
 	font-size: 10px
+}
+
+input[type=text] {
+	padding: 12px 170px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+label {
+	margin-left: 50px;
+}
+
+#message-input {
+	/*width: 45%;*/
+	padding: 20px 35px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+#submit-input {
+	margin-left: 50px;
+	width: 10em;
 }
