@@ -1,3 +1,7 @@
+html {
+	font-size: 16px;
+}
+
 body {
   margin: 0;
   font: sans-serif;
@@ -140,11 +144,11 @@ nav a:hover::before {
 
 /*		SECTION FOR THE "CONTACT US" PAGE 			*/
 
+/* "Contact Us" */
 legend {
-	margin-top: 35px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	font-size: 35px;
+	margin-top: 10em;
+	margin-left: 10em;
+	margin-bottom: 10em;
 }
 
 .required {
@@ -153,7 +157,8 @@ legend {
 }
 
 input[type=text] {
-	padding: 12px 170px;
+	/*padding: 12px 170px;*/
+	padding: 1em 20em;
 	margin-left: 50px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -165,7 +170,6 @@ label {
 
 #message-input {
 	/*width: 45%;*/
-	padding: 20px 35px;
 	margin-left: 50px;
 	margin-bottom: 20px;
 }
