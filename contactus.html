@@ -24,24 +24,34 @@
 	<form action="#">
 		<legend> <b>Contact Us</b> </legend>
 
-<!-- POSSIBLY CHANGE THE CLASSES TO ID'S? ID'S ARE USED TO IDENTIY A SINGLE ELEMENT, WHILE CLASSES ARE FOR MULTIPLE-->
-		<label>First Name</label> <span class="required">*</span><br>
+		<p id="contact-description">
+			We'd love to hear from you! Feel free to send us a question or comment with the form below. <br>
+			All submissions will be sent to our email, and we'll get back to you as soon as possible. <br>
+		</p>
+
+		<label class="title">First Name</label> <span class="required">*</span><br>
 			<input type="text" name="first-name" class="first-name-input"><br>
 
-		<label>Last Name</label> <span class="required">*</span><br>
+		<label class="title">Last Name</label> <span class="required">*</span><br>
 			<input type="text" name="last-name" class="last-name-input"><br>
 
-		<label>Email</label> <span class="required">*</span> <br>
+		<label class="title">Email</label> <span class="required">*</span> <br>
 			<input type="text" name="email" class="email-input"> <br>
 
-		<label>Phone Number</label> <span class="required">*</span> <br>
+		<label class="title">Phone Number</label> <span class="required">*</span> <br>
 			<input type="text" name="phone" class="phone-input"> <br>
-<!-- ENTER PREFERRED METHOD OF CONTACT DROPDOWN SELECTION -->
 
-		<label>Subject</label> <span class="required">*</span> <br>
+		<label class="title"> Preferred Method of Contact:</label><br>
+			<select>
+				<option> Email </option>
+				<option> Phone </option>
+			</select> 
+		<br>
+
+		<label class="title">Subject</label> <span class="required">*</span> <br>
 			<input type="text" name="subject" class="subject-input"> <br>
 
-		<label>Message</label> <span class="required">*</span> <br>
+		<label class="title">Message</label> <span class="required">*</span> <br>
 			<textarea name="message" cols="60" rows="15" id="message-input"></textarea> <br>
 
 		<input type="submit" name="submit" value="Submit" id="submit-input">
