@@ -29,6 +29,8 @@
 			All submissions will be sent to our email, and we'll get back to you as soon as possible. <br>
 		</p>
 
+<!-- Get rid of classes for inputs? -->
+
 		<label class="title">First Name</label> <span class="required">*</span><br>
 			<input type="text" name="first-name" class="first-name-input"><br>
 

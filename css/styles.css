@@ -1,5 +1,6 @@
 html {
 	font-size: 16px;
+	font-family: "Railway", arial, sans-serif;
 }
 
 body {
@@ -85,66 +86,36 @@ nav a:hover::before {
 	width: 100%;
 }
 
+#main-description {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#full-photo {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 50%;
+}
+
 .AGAPEfullgroup-img {
-	width: 600px;
-	height: 450px;
+	width: 700px;
+	height: 550px;
 }
 
 /* SECTION FOR LEADERS/OFFICERS PAGE */
-.President-img {
+
+figure {
+	display: inline-block;
+}
+
+.leader-img {
 	width: 600px;
 	height: 400px;
 }
-
-.VP-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Treasurer-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Media1-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Media2-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Historian-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Events1-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Events2-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Events3-img {
-	width: 600px;
-	height: 400px;
-}
-
-.Praise-img {
-	width: 600px;
-	height: 400px;
-}
-
 
 /*		SECTION FOR THE "CONTACT US" PAGE 			*/
 
-/* "Contact Us" */
 form {
 	margin-top: 3em;
 	margin-left: 7em;
@@ -153,17 +124,25 @@ form {
 }
 
 legend {
-	font-size: 3em;
+	font-size: 2.5em;
 	margin-bottom: 0.75em;
 }
 
+#contact-description {
+	margin-bottom: 20px;
+	font-size: 1.1em;
+	width: 100%;
+}
+
+/* Red asterisk to indicate required form */
 .required {
 	color: red;
 	font-size: 0.75em;
 }
 
 input[type=text] {
-	padding-top: 2em;
+	font-size: 1em;
+	height: 2em;
 	width: 100%;
 	margin-bottom: 0.75em;
 	box-sizing: border-box;
@@ -177,14 +156,10 @@ select {
 
 #message-input {
 	margin-bottom: 20px;
+	font-size: 1em;
 }
 
 #submit-input {
 	width: 10%;
 }
 
-#contact-description {
-	margin-bottom: 20px;
-	font-size: 1.2em;
-	width: 100%;
-}
